@@ -37,7 +37,24 @@
     
     <a-sky src="#sky"></a-sky>
 
-    
+    <!--Floor-->
+    <a-plane src="images/grey.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
+
+<!--Ceiling-->
+    <a-entity static-body geometry="primitive: box; depth: 30; height: 0.1; width: 30" position="0 14 0" material="shader: flat; side: double; opacity: 1;
+    src: url(images/grey.jpg); repeat: 20 12"></a-entity>
+
+<!--Walls-->
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="15 6.5 0" rotation="0 90 0" material="shader: standard;
+roughness: 1; src: url(images/grey.jpg); repeat: 4 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="-15 6.5 0" rotation="0 90 0" material="shader: standard;
+roughness: 1; src: url(images/grey.jpg); repeat: 4 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="0 6.5 -15" rotation="0 0 0" material="shader: standard;
+roughness: 1; src: url(images/grey.jpg); repeat: 12 2"></a-entity>
+    <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="0 6.5 15" rotation="0 0 0" material="shader: standard;
+roughness: 1; src: url(images/grey.jpg); repeat: 12 2"></a-entity>
+
+<a-obj-model src="assets/bed1.obj" mtl="assets/bed1.mtl" position="5 2.4 4" rotation="0 90 0"></a-obj-model>
 
 </a-scene>
 
