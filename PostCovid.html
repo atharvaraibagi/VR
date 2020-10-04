@@ -40,11 +40,11 @@
     <!--Floor-->
     <a-plane src="images/grey.jpg" rotation="-90 0 0" width="30" height="30"></a-plane>
 
-<!--Ceiling-->
+    <!--Ceiling-->
     <a-entity static-body geometry="primitive: box; depth: 30; height: 0.1; width: 30" position="0 14 0" material="shader: flat; side: double; opacity: 1;
-    src: url(images/grey.jpg); repeat: 20 12"></a-entity>
+    src: url(images/wallpaper.jpg); repeat: 20 12"></a-entity>
 
-<!--Walls-->
+    <!--Walls-->
     <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="15 6.5 0" rotation="0 90 0" material="shader: standard;
 roughness: 1; src: url(images/grey.jpg); repeat: 4 2"></a-entity>
     <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="-15 6.5 0" rotation="0 90 0" material="shader: standard;
@@ -54,7 +54,16 @@ roughness: 1; src: url(images/grey.jpg); repeat: 12 2"></a-entity>
     <a-entity static-body geometry="primitive: box; depth: 1; height: 15; width: 30" position="0 6.5 15" rotation="0 0 0" material="shader: standard;
 roughness: 1; src: url(images/grey.jpg); repeat: 12 2"></a-entity>
 
-<a-obj-model src="assets/bed1.obj" mtl="assets/bed1.mtl" position="5 2.4 4" rotation="0 90 0"></a-obj-model>
+<a-obj-model src="assets/Full_Size_Bed_with_White_Sheets_Black_V1.obj" mtl="assets/Full_Size_Bed_with_White_Sheets_Black_V1.mtl" position="12 2.4 -9.5" rotation="270 0 0" scale="0.05 0.05 0.05"></a-obj-model>
+
+<a-obj-model src="assets/Drawer.obj" mtl="assets/Drawer.mtl" position="7 0 -13" rotation="0 0 0" scale="0.7 0.7 0.7"></a-obj-model>
+
+<a-obj-model src="assets/lamp.obj" mtl="assets/lamp.mtl" position="7 2.3 -13.4" rotation="0 0 0" scale="0.03 0.03 0.03"></a-obj-model>
+
+<a-obj-model navigate-on-click="url: index.html" src="assets/Door.obj" mtl="assets/Door.mtl" position="-11 1.4 -14.3" rotation="0 90 0"></a-obj-model>
+
+<a-obj-model src="assets/fan.obj" mtl="assets/fan.mtl" material="src: url(assets/fan.jpg);" position="0 7.4 0" rotation="270 0 0" scale="0.02 0.02 0.02" animation="startEvents: click; property: rotation; to: 270 360 0; loop: true; dur: 10000; easing: linear">
+</a-obj-model>
 
 </a-scene>
 
