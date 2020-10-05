@@ -59,9 +59,8 @@ roughness: 1; src: url(images/wall-tile.jpg); repeat: 12 2"></a-entity>
 
 
 <a-entity geometry="primitive: plane; height: 9; width: 11 " position="38 8 0" rotation="180 90 180" material="shader: flat; transparent: true;
-src: url(images/code.mp4)"></a-entity>
+src: url(images/code2.png)"></a-entity>
 
-<a-obj-model src="assets/maskedrider.obj" mtl="assets/maskedrider.mtl" position="28 4 3" rotation="90 90 90" animation="property: rotation; to: 90 360 0; loop: true; dur: 10000"></a-obj-model>
 
 
 <a-obj-model src="assets/table1.obj" mtl="assets/table1.mtl" position="28 2.8 0" rotation="180 0 0 90"></a-obj-model>
@@ -187,11 +186,15 @@ src: url(images/postcovid.png)"></a-entity>
 <a-entity geometry="primitive: plane; height: 4; width: 7 " position="-15 6 -22" rotation="0 0 0" material="shader: flat; transparent: true;
 src: url(images/covid.png)"></a-entity>
 
-<a-box src="images/code.mp4" depth="5" height="4" length="2" position="15 8 -20" rotation="0 30 0"></a-box>
-<a-box src="images/code.mp4" depth="5" height="4" length="2" position="15 8 20" rotation="0 -30 0"></a-box>
+<a-box src="images/code2.png" depth="5" height="4" length="2" position="15 8 -20" rotation="0 30 0"></a-box>
+<a-box src="images/code2.png" depth="5" height="4" length="2" position="15 8 20" rotation="0 -30 0"></a-box>
 
-<a-obj-model src="assets/ttu.obj" mtl="assets/ttu.mtl" position="-20 1.4 13" rotation="90 130 0" scale="0.7 0.7 0.7"></a-obj-model>
+<a-obj-model src="assets/ttu.obj" mtl="assets/ttu.mtl" position="-20 1.4 13" rotation="90 130 0" scale="0.7 0.7 0.7" animation="startEvents: click; property: rotation; to: 90 360 0; loop: true; dur: 10000; easing: linear"></a-obj-model>
 
+<a-obj-model src="assets/maskedrider.obj" mtl="assets/maskedrider.mtl" position="-27 1.4 5" rotation="90 0 90" scale="1.5 1.5 1.5" sound="src:url(assets/zapsplat_animal_horse_running_galloping_grass_45555.mp3); on: click"></a-obj-model>
+
+<a-entity geometry="primitive: plane; height: 5; width: 7 " position="-15 6 22" rotation="0 180 0" material="shader: flat; transparent: true;
+src: url(images/interaction.png)"></a-entity>
 
 </a-scene>
 
