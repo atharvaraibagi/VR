@@ -13,7 +13,9 @@ You can click on the Masked rider to play sound.
 ### Post- COVID Scene
 In order to go to the Post-Covid scene, you'll have to click on the door in the first scene. You will then be transported to the Post-COVID scene where you will be able to see the layot of a bedroom and this scene explains how students now have to attend classes online from their home. The interactive element in this scene is the ceiling fan. You can click on the fan to start its rotation. 
 
-You can watch the video demo here:
+![alt text](https://media.giphy.com/media/gTW8hUBnLn02KTCsLb/giphy.gif)
+
+You can watch the video demo here: https://youtu.be/5HSOVfgWBls
 
 
 
@@ -24,7 +26,26 @@ In order to change the scene when the door is clicked, I had to write a custom m
 
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/customFunction.png)
 
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/precov.png)
 
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/postcov.png)
+
+
+**Rotating the Double T**
+
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/t.png)
+
+
+To rotate the Double T object, I added a onclick event handler to start animation when the object is clicked
+
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/onclick.png)
+
+**Masked Rider Sound**
+*This sound was downloaded from: Zapsplat.com*
+
+To add the sound, I again added an onclick event and played the sound when the object was clicked
+
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/onclicksound.png)
 
 
 
