@@ -22,7 +22,8 @@ You can watch the video demo here:
 **Change of Scene**
 In order to change the scene when the door is clicked, I had to write a custom model to handle on click navigation.
 
-[!alt text] 
+[!alt text] (https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/customFunction.png)
+
 
 
 
