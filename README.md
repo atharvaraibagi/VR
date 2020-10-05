@@ -26,9 +26,16 @@ In order to change the scene when the door is clicked, I had to write a custom m
 
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/customFunction.png)
 
+
+
+**Pre COVID Scene:**
+
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/precov.png)
 
+**Post COVID Scene:**
+
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/postcov.png)
+
 
 
 **Rotating the Double T**
@@ -48,6 +55,10 @@ To add the sound, I again added an onclick event and played the sound when the o
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/onclicksound.png)
 
 
+## Libraries Used
+Aframe : https://aframe.io/
+         https://aframe.io/releases/1.0.4/aframe.min.js
+
 
 ## Sources
 
@@ -66,3 +77,7 @@ To add the sound, I again added an onclick event and played the sound when the o
 [Backpack](https://free3d.com/3d-model/backpack-v2--607100.html)
 
 [Book](https://free3d.com/3d-model/books-pencil-lapis-e-livros-52285.html)
+
+**Sound**
+
+Masked Rider Sound: from Zapsplat.com
