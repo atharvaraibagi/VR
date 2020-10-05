@@ -43,7 +43,7 @@ In order to change the scene when the door is clicked, I had to write a custom m
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/t.png)
 
 
-To rotate the Double T object, I added a onclick event handler to start animation when the object is clicked
+To rotate the Double T object, I added a onclick event listener to start animation when the object is clicked
 
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/onclick.png)
 
@@ -53,6 +53,17 @@ To rotate the Double T object, I added a onclick event handler to start animatio
 To add the sound, I again added an onclick event and played the sound when the object was clicked
 
 ![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/onclicksound.png)
+
+
+**Ceiling Fan**
+
+The Ceiling fan also uses an event listener and when clicked starts rotating:
+
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/fan.png)
+
+Event Listener:
+
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/fanc.png)
 
 
 ## Libraries Used
