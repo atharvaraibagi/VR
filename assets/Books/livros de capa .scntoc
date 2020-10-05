@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<xsi_file type="SceneTOC" xsi_version="12.1.99.0" syntax_version="2.0">
+   <Models></Models>
+   <Sources>
+      <Image name="noIcon_pic">$XSI_HOME/Application/rsrc/noIcon.pic</Image>
+      <Image name="_91873_1193074681_1_jpg">E:\DIVERSOS\wallpapers\Fundos\91873,1193074681,1.jpg</Image>
+      <Image name="OAKQRTRT_TGA">Pictures\Wood\OAKQRTRT.TGA</Image>
+      <Image name="folha__jpg">Scenes\LIVROS\folha .jpg</Image>
+      <Image name="desk_texture_jpg">Pictures\desk_texture.jpg</Image>
+      <Image name="wire_penHolder_texture_tga">Pictures\wire_penHolder_texture.tga</Image>
+   </Sources>
+   <Passes>
+      <RenderOptions name="RenderOptions">
+         <Renderer>mental ray</Renderer>
+         <OutputDir>[Project Path]/Render_Pictures</OutputDir>
+         <FramePadding>1</FramePadding>
+         <ImageFormatPreset>-20</ImageFormatPreset>
+         <ImageAspectRatio>1.77778</ImageAspectRatio>
+         <ImageWidth>1280</ImageWidth>
+         <ImageHeight>720</ImageHeight>
+         <ImagePixelRatio>1</ImagePixelRatio>
+         <ImageLockAspectRatio>1</ImageLockAspectRatio>
+         <FrameRangeSource>0</FrameRangeSource>
+         <FrameStart>1</FrameStart>
+         <FrameEnd>2</FrameEnd>
+         <FrameStep>1</FrameStep>
+         <FrameSet>1-100</FrameSet>
+         <FieldEnable>0</FieldEnable>
+         <FieldOrder>0</FieldOrder>
+         <FieldInterleave>0</FieldInterleave>
+         <MotionBlurShutterSpeed>0.5</MotionBlurShutterSpeed>
+         <MotionBlurShutterOffset>0</MotionBlurShutterOffset>
+         <MotionBlurShutterType>0</MotionBlurShutterType>
+         <MotionBlurDeformation>1</MotionBlurDeformation>
+      </RenderOptions>
+      <RenderOptions name="HardwareRenderer">
+         <RenderType>OpenGL</RenderType>
+         <BackgroundColorRed>0</BackgroundColorRed>
+         <BackgroundColorGreen>0</BackgroundColorGreen>
+         <BackgroundColorBlue>0</BackgroundColorBlue>
+         <BackgroundColorAlpha>0</BackgroundColorAlpha>
+         <Oversampling>7</Oversampling>
+         <ShadowmapEnable>1</ShadowmapEnable>
+         <ShadowmapSize>512</ShadowmapSize>
+      </RenderOptions>
+      <RenderOptions name="mentalray">
+         <RenderType>0</RenderType>
+         <IndirectIllumAlgorithm>0</IndirectIllumAlgorithm>
+         <Scanline>0</Scanline>
+         <SamplesContrastRed>0.2</SamplesContrastRed>
+         <SamplesContrastGreen>0.2</SamplesContrastGreen>
+         <SamplesContrastBlue>0.2</SamplesContrastBlue>
+         <SamplesContrastAlpha>0.2</SamplesContrastAlpha>
+         <SamplesMin>1</SamplesMin>
+         <SamplesMax>2</SamplesMax>
+         <RasterizerShadingSamples>4</RasterizerShadingSamples>
+         <RasterizerPixelSamples>4</RasterizerPixelSamples>
+         <RasterizerMotionSamples>1</RasterizerMotionSamples>
+         <RasterizerMotionFactor>0</RasterizerMotionFactor>
+         <RasterizerMaxDepth>0</RasterizerMaxDepth>
+         <UnifiedSampling>0</UnifiedSampling>
+         <UnifiedSamplesMin>4</UnifiedSamplesMin>
+         <UnifiedSamplesMax>16</UnifiedSamplesMax>
+         <UnifiedSamplesQuality>0.8</UnifiedSamplesQuality>
+         <UnifiedSamplesErrorCutoff>0</UnifiedSamplesErrorCutoff>
+         <Trace>1</Trace>
+         <MotionSamples>5</MotionSamples>
+         <SamplesFilterType>3</SamplesFilterType>
+         <SamplesFilterSize>3.5</SamplesFilterSize>
+         <SamplesJitter>1</SamplesJitter>
+         <FGEnable>1</FGEnable>
+         <AmbientOcclusionEnable>1</AmbientOcclusionEnable>
+         <GPUAmbientOcclusionEnable>0</GPUAmbientOcclusionEnable>
+         <GPUAmbientOcclusionOutput></GPUAmbientOcclusionOutput>
+         <ImportonEnable>0</ImportonEnable>
+         <ImportonTraceThrough>1</ImportonTraceThrough>
+         <GIEnable>0</GIEnable>
+         <CausticEnable>0</CausticEnable>
+         <IPEnable>0</IPEnable>
+      </RenderOptions>
+      <Pass name="LIVROS_">
+         <Camera>Camera</Camera>
+         <Renderer></Renderer>
+         <ImageFormatOverride>0</ImageFormatOverride>
+         <ImageFormatPreset>-16</ImageFormatPreset>
+         <ImageAspectRatio>1.77778</ImageAspectRatio>
+         <ImageWidth>1920</ImageWidth>
+         <ImageHeight>1080</ImageHeight>
+         <ImagePixelRatio>1</ImagePixelRatio>
+         <ImageLockAspectRatio>1</ImageLockAspectRatio>
+         <FrameRangeSource>2</FrameRangeSource>
+         <FrameStart>1</FrameStart>
+         <FrameEnd>100</FrameEnd>
+         <FrameStep>1</FrameStep>
+         <FrameSet>1-100</FrameSet>
+         <FrameSkipRendered>0</FrameSkipRendered>
+         <FieldOverride>0</FieldOverride>
+         <FieldEnable>0</FieldEnable>
+         <FieldOrder>0</FieldOrder>
+         <FieldInterleave>0</FieldInterleave>
+         <CropWindowEnabled>0</CropWindowEnabled>
+         <CropWindowOffsetX>0</CropWindowOffsetX>
+         <CropWindowOffsetY>0</CropWindowOffsetY>
+         <CropWindowWidth>1280</CropWindowWidth>
+         <CropWindowHeight>720</CropWindowHeight>
+         <SelectionTracking>0</SelectionTracking>
+         <SelectionOnly>0</SelectionOnly>
+         <MotionBlur>0</MotionBlur>
+         <MotionBlurOverride>0</MotionBlurOverride>
+         <MotionBlurShutterSpeed>0.5</MotionBlurShutterSpeed>
+         <MotionBlurShutterOffset>0</MotionBlurShutterOffset>
+         <MotionBlurShutterType>0</MotionBlurShutterType>
+         <MotionBlurDeformation>1</MotionBlurDeformation>
+         <FrameBuffers>
+            <FrameBuffer name="Main">
+               <RenderChannel>Main</RenderChannel>
+               <Enabled>1</Enabled>
+               <Filename>[Pass]_[Framebuffer]</Filename>
+               <Format>bmp</Format>
+               <DataType>RGB</DataType>
+               <BitDepth>3</BitDepth>
+            </FrameBuffer>
+         </FrameBuffers>
+      </Pass>
+   </Passes>
+   <ParametersValues>
+      <Param name="Passes.current">Passes.LIVROS_</Param>
+      <Param name="PlayControl.Rate">29.970030</Param>
+   </ParametersValues>
+   <PostLoadScript>
+      <Language>VBScript</Language>
+      <Function></Function>
+      <Script_Content></Script_Content>
+   </PostLoadScript>
+   <SceneInfo>
+      <LicenseRequired>Essential</LicenseRequired>
+   </SceneInfo>
+</xsi_file>
