@@ -28,8 +28,8 @@
         <img id="sky" src="images/sky.jpg">
     </a-assets>
 
-    <a-entity camera position="0 3 0">
-        <a-camera id="camera">
+    <a-entity camera position="0 3 0" accelaration="5000">
+        <a-camera id="camera" accelaration="5000">
             <a-cursor color="red"></a-cursor>
         </a-camera>
     </a-entity>
@@ -186,6 +186,9 @@ src: url(images/postcovid.png)"></a-entity>
 
 <a-entity geometry="primitive: plane; height: 4; width: 7 " position="-15 6 -22" rotation="0 0 0" material="shader: flat; transparent: true;
 src: url(images/covid.png)"></a-entity>
+
+<a-box src="images/code.mp4" depth="5" height="4" length="2" position="15 8 -20" rotation="0 30 0"></a-box>
+<a-box src="images/code.mp4" depth="5" height="4" length="2" position="15 8 20" rotation="0 -30 0"></a-box>
 
 <a-obj-model src="assets/ttu.obj" mtl="assets/ttu.mtl" position="-20 1.4 13" rotation="90 130 0" scale="0.7 0.7 0.7"></a-obj-model>
 
