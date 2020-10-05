@@ -22,7 +22,7 @@ You can watch the video demo here:
 **Change of Scene**
 In order to change the scene when the door is clicked, I had to write a custom model to handle on click navigation.
 
-![alt text] (https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/customFunction.png)
+![alt text](https://github.com/atharvaraibagi/atharvaraibagi.github.io/blob/master/images/customFunction.png)
 
 
 
@@ -32,16 +32,16 @@ In order to change the scene when the door is clicked, I had to write a custom m
 
 **Models**
 
-[Door] (https://free3d.com/3d-model/interior-door-66723.html)
+[Door](https://free3d.com/3d-model/interior-door-66723.html)
 
-[Bed] (https://free3d.com/3d-model/full-size-bed-with-white-sheets-black-v1--434476.html)
+[Bed](https://free3d.com/3d-model/full-size-bed-with-white-sheets-black-v1--434476.html)
 
-[Lamp] (https://free3d.com/3d-model/older-lamp-28459.html)
+[Lamp](https://free3d.com/3d-model/older-lamp-28459.html)
 
-[BedsideDraswer] (https://free3d.com/3d-model/drawer-bed-side-547686.html)
+[BedsideDraswer](https://free3d.com/3d-model/drawer-bed-side-547686.html)
 
-[Desk] (https://free3d.com/3d-model/computer-table-86952.html)
+[Desk](https://free3d.com/3d-model/computer-table-86952.html)
 
-[Backpack] (https://free3d.com/3d-model/backpack-v2--607100.html)
+[Backpack](https://free3d.com/3d-model/backpack-v2--607100.html)
 
-[Book] (https://free3d.com/3d-model/books-pencil-lapis-e-livros-52285.html)
+[Book](https://free3d.com/3d-model/books-pencil-lapis-e-livros-52285.html)
